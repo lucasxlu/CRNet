@@ -7,3 +7,6 @@
 ### Notation 
 CRNet achieves the state-of-the-art performance on [SCUT-FBP](http://www.hcii-lab.net/data/scut-fbp/en/introduce.html) 
 and [ECCV HotOrNot](https://www.researchgate.net/publication/261595808_Female_Facial_Beauty_Dataset_ECCV2010_v10) dataset.
+
+### LICENSE
+[MIT](./LICENSE)
