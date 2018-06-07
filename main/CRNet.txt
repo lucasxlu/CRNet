@@ -1,0 +1,88 @@
+++++++++++epoch=30++++++++++
+===============The Mean Absolute Error of CRNet is 0.8651====================
+===============The Root Mean Square Error of CRNet is 1.0956====================
+===============The Pearson Correlation of CRNet is 0.4755====================
+
+
+===============The Mean Absolute Error of CRNet is 0.8269====================
+===============The Root Mean Square Error of CRNet is 1.0635====================
+===============The Pearson Correlation of CRNet is 0.5142====================
+
+
+===============The Mean Absolute Error of CRNet is 0.8477====================
+===============The Root Mean Square Error of CRNet is 1.0893====================
+===============The Pearson Correlation of CRNet is 0.4721====================
+
+
+===============The Mean Absolute Error of CRNet is 0.8485====================
+===============The Root Mean Square Error of CRNet is 1.0705====================
+===============The Pearson Correlation of CRNet is 0.4588====================
+
+
+===============The Mean Absolute Error of CRNet is 0.8579====================
+===============The Root Mean Square Error of CRNet is 1.0827====================
+===============The Pearson Correlation of CRNet is 0.4589====================
+
+
+
++++++++++++++++++++std=[1,1,1]++++++++++++++++++
+===============The Mean Absolute Error of CRNet is 0.8332====================
+===============The Root Mean Square Error of CRNet is 1.061====================
+===============The Pearson Correlation of CRNet is 0.4992====================
+
+===============The Mean Absolute Error of CRNet is 0.8515====================
+===============The Root Mean Square Error of CRNet is 1.0946====================
+===============The Pearson Correlation of CRNet is 0.4787====================
+
+===============The Mean Absolute Error of CRNet is 0.8544====================
+===============The Root Mean Square Error of CRNet is 1.0923====================
+===============The Pearson Correlation of CRNet is 0.4715====================
+
+===============The Mean Absolute Error of CRNet is 0.8137====================
+===============The Root Mean Square Error of CRNet is 1.0297====================
+===============The Pearson Correlation of CRNet is 0.5073====================
+
+===============The Mean Absolute Error of CRNet is 0.8799====================
+===============The Root Mean Square Error of CRNet is 1.1048====================
+===============The Pearson Correlation of CRNet is 0.4515====================
+
+
+++++++epoch=80++++++
+===============The Mean Absolute Error of CRNet is 0.274====================
+===============The Root Mean Square Error of CRNet is 0.3423====================
+===============The Pearson Correlation of CRNet is 0.8872====================
+
+===============The Mean Absolute Error of CRNet is 0.2617====================
+===============The Root Mean Square Error of CRNet is 0.3471====================
+===============The Pearson Correlation of CRNet is 0.8502====================
+
+===============The Mean Absolute Error of CRNet is 0.2776====================
+===============The Root Mean Square Error of CRNet is 0.3445====================
+===============The Pearson Correlation of CRNet is 0.8667====================
+
+===============The Mean Absolute Error of CRNet is 0.2581====================
+===============The Root Mean Square Error of CRNet is 0.3353====================
+===============The Pearson Correlation of CRNet is 0.8608====================
+
+
+
+
+===============The Mean Absolute Error of CRNet is 0.2634====================
+===============The Root Mean Square Error of CRNet is 0.3308====================
+===============The Pearson Correlation of CRNet is 0.8723====================
+
+===============The Mean Absolute Error of CRNet is 0.254====================
+===============The Root Mean Square Error of CRNet is 0.3208====================
+===============The Pearson Correlation of CRNet is 0.8704====================
+
+===============The Mean Absolute Error of CRNet is 0.2801====================
+===============The Root Mean Square Error of CRNet is 0.3421====================
+===============The Pearson Correlation of CRNet is 0.8766====================
+
+===============The Mean Absolute Error of CRNet is 0.2654====================
+===============The Root Mean Square Error of CRNet is 0.3328====================
+===============The Pearson Correlation of CRNet is 0.8687====================
+
+===============The Mean Absolute Error of CRNet is 0.2612====================
+===============The Root Mean Square Error of CRNet is 0.3255====================
+===============The Pearson Correlation of CRNet is 0.8735====================
