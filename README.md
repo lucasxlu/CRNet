@@ -4,14 +4,34 @@
 This repository holds the PyTorch implementation for our paper [CRNet: Classification and Regression Neural Network for Facial Beauty Prediction](https://link.springer.com/chapter/10.1007/978-3-030-00764-5_61).
 
 
-## Performance 
+## Performance Comparison
 CRNet achieves the state-of-the-art performance on [SCUT-FBP](http://www.hcii-lab.net/data/scut-fbp/en/introduce.html) 
 and [ECCV HotOrNot](https://www.researchgate.net/publication/261595808_Female_Facial_Beauty_Dataset_ECCV2010_v10) dataset. For more details, please read our [paper](https://link.springer.com/chapter/10.1007/978-3-030-00764-5_61).
 
-| DataSet | PC |
+### Performance Evaluation on SCUT-FBP
+| Methods | PC |
 | :---: | :---: |
+| Gaussian Regression | 0.6482 |
+| CNN-based | 0.8187 |
+| PI-CNN | 0.87 |
+| Liu et al. | 0.6938 |
 | SCUT-FBP | 0.8723 |
 | ECCV HotOrNot | 0.482 |
+
+### Performance Evaluation on HotOrNot
+| Methods | PC |
+| :---: | :---: |
+| Multi-scale Model | 0.458 |
+| S. Wang et al. | 0.437 |
+| CRNet | 0.482 |
+
+### Test
+![SCUT-FBP](./scutfbp.png)
+
+
+The most attractive parts learned by CRNet is shown as follows.
+
+![Deep Feature](./deep_feature.png)
 
 
 If you find the code or the experimental results useful in your research, please consider citing our paper:
