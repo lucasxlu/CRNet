@@ -15,15 +15,14 @@ and [ECCV HotOrNot](https://www.researchgate.net/publication/261595808_Female_Fa
 | CNN-based | 0.8187 |
 | PI-CNN | 0.87 |
 | Liu et al. | 0.6938 |
-| SCUT-FBP | 0.8723 |
-| ECCV HotOrNot | 0.482 |
+| **CRNet** | **0.8723** |
 
 ### Performance Evaluation on HotOrNot
 | Methods | PC |
 | :---: | :---: |
 | Multi-scale Model | 0.458 |
 | S. Wang et al. | 0.437 |
-| CRNet | 0.482 |
+| **CRNet** | **0.482** |
 
 ### Test
 ![SCUT-FBP](./scutfbp.png)
@@ -34,7 +33,8 @@ The most attractive parts learned by CRNet is shown as follows.
 ![Deep Feature](./deep_feature.png)
 
 
-If you find the code or the experimental results useful in your research, please consider citing our paper:
+If you find the code or the experimental results useful in your research, 
+please cite our paper:
 ```
 @inproceedings{xu2018crnet,
   title={CRNet: Classification and Regression Neural Network for Facial Beauty Prediction},
