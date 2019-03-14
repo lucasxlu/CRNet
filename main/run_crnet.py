@@ -122,7 +122,7 @@ def run_crnet_scutfbp(model, epoch=30):
 
     exp_lr_scheduler = lr_scheduler.StepLR(optimizer_ft, step_size=20, gamma=0.1)
 
-    df = pd.read_excel('./cvsplit/SCUT-FBP.xlsx', sheet_name='Sheet1')
+    df = pd.read_excel('../cvsplit/SCUT-FBP.xlsx', sheet_name='Sheet1')
     X_train, X_test, y_train, y_test = train_test_split(df['Image'].tolist(), df['Attractiveness label'],
                                                         test_size=0.2, random_state=0)
 
