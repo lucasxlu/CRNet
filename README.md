@@ -7,7 +7,7 @@ This repository holds the PyTorch implementation for our paper [CRNet: Classific
 ## Performance Comparison
 CRNet achieves the state-of-the-art performance on [SCUT-FBP](http://www.hcii-lab.net/data/scut-fbp/en/introduce.html) 
 and [ECCV HotOrNot](https://www.researchgate.net/publication/261595808_Female_Facial_Beauty_Dataset_ECCV2010_v10) dataset. For more details, please read our [paper](https://link.springer.com/chapter/10.1007/978-3-030-00764-5_61).
-The cropped face images of SCUT-FBP dataset can be downloaded from [Google Drive](https://drive.google.com/open?id=1hDa9sqewrxW8xMhezU82p4wrv2fu9GoX).
+
 
 ### Performance Evaluation on SCUT-FBP
 | Methods | PC |
@@ -34,6 +34,12 @@ The most attractive parts learned by CRNet is shown as follows.
 ![Deep Feature](./deep_feature.png)
 
 
+## Resource
+* [Pretrained Model on SCUT-FBP](https://drive.google.com/file/d/1OvdFbDNgD0O0PczX5sVyDWuIlE3N8_99/view?usp=sharing)
+* [Cropped face images of SCUT-FBP](https://drive.google.com/open?id=1hDa9sqewrxW8xMhezU82p4wrv2fu9GoX)
+* [Pretrained Model on HotOrNot](https://drive.google.com/file/d/1rMj8AlsWWm_VrOHREKFigP8hFrcT06-H/view?usp=sharing)
+
+
 If you find the code or the experimental results useful in your research, 
 please cite our paper:
 ```
@@ -47,5 +53,5 @@ please cite our paper:
 }
 ```
 
-### LICENSE
+## LICENSE
 [MIT](./LICENSE)
