@@ -130,6 +130,7 @@ def run_crnet_scutfbp(model, epoch=30):
     train_dataset = ScutFBPDataset(f_list=X_train, f_labels=y_train, transform=transforms.Compose([
         transforms.Resize(224),
         transforms.RandomRotation(30),
+        transforms.ColorJitter(),
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.5, 0.5, 0.5],
                              std=[1, 1, 1])
@@ -137,16 +138,15 @@ def run_crnet_scutfbp(model, epoch=30):
 
     test_dataset = ScutFBPDataset(f_list=X_test, f_labels=y_test, transform=transforms.Compose([
         transforms.Resize(224),
-        transforms.RandomRotation(30),
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.5, 0.5, 0.5],
                              std=[1, 1, 1])
     ]))
 
     train_dataloader = DataLoader(train_dataset, batch_size=cfg['batch_size'],
-                                  shuffle=True, num_workers=4)
+                                  shuffle=True, num_workers=50)
     test_dataloader = DataLoader(test_dataset, batch_size=cfg['batch_size'],
-                                 shuffle=False, num_workers=4)
+                                 shuffle=False, num_workers=50)
 
     print('finish loading SCUT-FBP dataset...')
     train_model(model=model, train_dataloader=train_dataloader, test_dataloader=test_dataloader,
@@ -188,9 +188,9 @@ def run_crnet_eccv(model, cv_split=1, epoch=30):
     ]))
 
     train_dataloader = DataLoader(train_dataset, batch_size=cfg['batch_size'],
-                                  shuffle=True, num_workers=4, drop_last=True)
+                                  shuffle=True, num_workers=50, drop_last=True)
     test_dataloader = DataLoader(test_dataset, batch_size=cfg['batch_size'],
-                                 shuffle=False, num_workers=4, drop_last=True)
+                                 shuffle=False, num_workers=50, drop_last=False)
 
     print('finish loading ECCV HotOrNot dataset...')
 

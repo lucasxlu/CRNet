@@ -34,6 +34,10 @@ The most attractive parts learned by CRNet is shown as follows.
 ![Deep Feature](./deep_feature.png)
 
 
+## Note
+A updated version of CRNet with huge improvement can be found from [ComboLoss](https://github.com/lucasxlu/ComboLoss.git).
+
+
 ## Resource
 * [Pretrained Model on SCUT-FBP](https://drive.google.com/file/d/1OvdFbDNgD0O0PczX5sVyDWuIlE3N8_99/view?usp=sharing)
 * [Cropped face images of SCUT-FBP](https://drive.google.com/open?id=1hDa9sqewrxW8xMhezU82p4wrv2fu9GoX)
